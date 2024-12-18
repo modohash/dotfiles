@@ -8,10 +8,12 @@ echo "Installing Brew Formulae..."
 brew install lua
 brew install switchaudio-osx
 brew install nowplaying-cli
+brew install font-hack-nerd-font
 
 brew install borders
 brew install yabai
 brew install sketchybar
+brew install neovim
 
 ## Install fonts
 brew install --cask sf-symbols
@@ -22,6 +24,9 @@ curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v2.0.
 
 # SbarLua
 (git clone https://github.com/FelixKratz/SbarLua.git /tmp/SbarLua && cd /tmp/SbarLua/ && make install && rm -rf /tmp/SbarLua/)
+
+## Neovim stuff
+curl -fsSL https://deno.land/install.sh | sh
 
 ## Create symlinks
 rm -f ~/.config/yabai/yabairc
