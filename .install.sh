@@ -15,6 +15,8 @@ brew install yabai
 brew install sketchybar
 brew install neovim
 
+brew install btop
+
 ## Install fonts
 brew install --cask sf-symbols
 brew install --cask font-sf-mono
