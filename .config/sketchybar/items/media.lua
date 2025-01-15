@@ -92,8 +92,8 @@ media_cover:subscribe("media_change", function(env)
 
     if drawing then
       animate_detail(true)
-      interrupt = interrupt + 1
-      sbar.delay(5, animate_detail)
+      --interrupt = interrupt + 1
+      --sbar.delay(5, animate_detail)
     else
       media_cover:set({ popup = { drawing = false } })
     end
