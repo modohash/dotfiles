@@ -16,6 +16,9 @@ brew install sketchybar
 brew install neovim
 
 brew install btop
+brew install nnn
+
+brew install --cask kitty
 
 ## Install fonts
 brew install --cask sf-symbols
