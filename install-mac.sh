@@ -45,6 +45,9 @@ ln -s /Users/chris/Development/personal/dotfiles/.config/borders/bordersrc ~/.co
 rm -f ~/.config/sketchybar
 ln -s /Users/chris/Development/personal/dotfiles/.config/sketchybar ~/.config/sketchybar
 
+rm -f ~/.config/kitty
+ln -s /Users/chris/Development/personal/dotfiles/.config/kitty ~/.config/kitty
+
 ## Start Services
 echo "Starting Services (grant permissions)..."
 brew services start borders
