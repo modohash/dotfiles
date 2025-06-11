@@ -17,6 +17,7 @@ brew install neovim
 
 brew install btop
 brew install nnn
+brew install spotify_player
 
 brew install --cask kitty
 
@@ -24,6 +25,7 @@ brew install --cask kitty
 brew install --cask sf-symbols
 brew install --cask font-sf-mono
 brew install --cask font-sf-pro
+brew install --cask xcodes
 
 curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v2.0.28/sketchybar-app-font.ttf -o $HOME/Library/Fonts/sketchybar-app-font.ttf
 
